@@ -4,7 +4,10 @@ export default function header() {
   return (
     <div className="Header">
       <div className="container">
+        <div className="Logo">
           <LogoIcon />
+        </div>
+
         <div className="Navigation">
           <p>About</p>
           <p>Work</p>
