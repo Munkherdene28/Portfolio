@@ -38,7 +38,7 @@ function Section2() {
             around on<br></br> twitter or on indie hacker, witnessing the
             journey of early startups or<br></br>
             enjoying some free time. You can follow me on Twitter where I share
-            tech-related<br></br> bites and build in public, or you can follow
+            tech-<br></br>related bites and build in public, or you can follow
             me on GitHub.
           </p>
           <div className="lis">

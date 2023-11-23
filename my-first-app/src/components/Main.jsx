@@ -2,7 +2,7 @@ import sarah from "../assets/sarah.jpeg";
 import Icon from "./Icon";
 function Main() {
   return (
-    <div className="subcontainer">
+    <div className="subcontainer flex">
       <div className="full">
         <div className="texts">
           <h1>Hi, I’m Munkherdene 👋</h1>
