@@ -1,12 +1,14 @@
-import sarah from "../assets/sarah.jpeg";
+import sarah from "../assets/Sarah.png";
 import Icon from "./Icon";
 function Main() {
   return (
-    <div className="subcontainer flex">
-      <div className="full">
-        <div className="texts">
-          <h1>Hi, I’m Munkherdene 👋</h1>
-          <p>
+    <div className="flex justify-center gap-6">
+      <div className="flex flex-col gap-10">
+        <div className="flex justify-center flex-col gap-2">
+          <h1 className="font-Inter text-5xl tracking-tighter">
+            Hi, I’m Munkherdene 👋
+          </h1>
+          <p className="font-Inter text-gray-600">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing)<br></br> exceptional digital
             experiences that are fast, accessible, visually appealing, and
@@ -16,11 +18,11 @@ function Main() {
           </p>
         </div>
         <div className="icons">
-          <div className="icon1">
+          <div className="flex items-center gap-2.5">
             <Icon />
-            <p>Ahmedabad, India</p>
+            <p className="text-gray-600">Ahmedabad, India</p>
           </div>
-          <div className="icon2">
+          <div className="flex items-center gap-2.5">
             <svg
               width="24"
               height="24"
@@ -30,11 +32,11 @@ function Main() {
             >
               <rect x="8" y="8" width="8" height="8" rx="4" fill="#10B981" />
             </svg>
-            <p>Available for new projects</p>
+            <p className="text-gray-600">Available for new projects</p>
           </div>
         </div>
         <div className="actions">
-          <div className="links">
+          <div className="flex">
             <svg
               width="36"
               height="36"
@@ -118,8 +120,8 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="image1">
-        <img src={sarah.src} />
+      <div>
+        <img src={sarah.src} className="w-70 h-96" />
       </div>
     </div>
   );

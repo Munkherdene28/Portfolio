@@ -1,12 +1,12 @@
 function skills() {
   return (
-    <div className="contain">
-      <div className="Skills">
-        <button className="skills-button">Skills</button>
+    <div className="flex flex-col gap-8">
+      <div className="flex justify-center flex-col items-center gap-6">
+        <button className="w-20 h-7 rounded-lg bg-gray-600">Skills</button>
         <p>The skills, tools and technologies I am really good at:</p>
       </div>
-      <div className="full-con">
-        <div className="row">
+      <div className="flex flex-col justify-center gap-7 items-center">
+        <div className="flex gap-24 flex-wrap">
           <div className="details">
             <svg
               width="88"
@@ -287,7 +287,7 @@ function skills() {
             </svg>
           </div>
         </div>
-        <div className="row2">
+        <div className="flex gap-24">
           <div className="details">
             <svg
               width="85"

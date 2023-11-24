@@ -6,13 +6,13 @@ import Experience from "@/components/Experience";
 import New from "@/components/New";
 export default function Home() {
   return (
-    <section className="Portfolio">
+    <section className="flex flex-col gap-24">
       <Header />
       <Main />
       <About />
       <Skills />
       <Experience />
-      <New />
+      {/* <New /> */}
     </section>
   );
 }

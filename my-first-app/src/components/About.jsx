@@ -1,16 +1,20 @@
 import Pic from "../assets/Pic.png";
 function Section2() {
   return (
-    <div className="About">
-      <div className="about-me">
-        <button className="button2">About me</button>
+    <div className="flex flex-col gap-8 bg-gray-200">
+      <div className="flex justify-center p-5">
+        <button className="flex bg-gray-600 justify-center items-center w-50 h-7 rounded-lg">
+          About me
+        </button>
       </div>
-      <div className="full-container">
+      <div className="flex justify-center gap-20">
         <div className="img">
           <img src={Pic.src} />
         </div>
-        <div className="Texts-1">
-          <h1>Curious about me? Here you have it:</h1>
+        <div className="flex flex-col gap-2 text-gray-600">
+          <h1 className="font-Inter font-normal text-2xl text-black">
+            Curious about me? Here you have it:
+          </h1>
           <p>
             I'm a passionate, self-proclaimed designer who specializes in full
             stack<br></br> development (React.js & Node.js). I am very
@@ -41,15 +45,13 @@ function Section2() {
             tech-<br></br>related bites and build in public, or you can follow
             me on GitHub.
           </p>
-          <div className="lis">
-            <div className="two">
-              <li>B.E. in Computer Engineering</li>
-              <li>Full time freelancer</li>
-            </div>
-            <div className="three">
-              <li>Avid learner</li>
-              <li>Aspiring indie hacker</li>
-            </div>
+          <div className="flex flex-wrap">
+            <li>B.E. in Computer Engineering</li>
+            <li>Full time freelancer</li>
+          </div>
+          <div className="flex flex-wrap">
+            <li>Avid learner</li>
+            <li>Aspiring indie hacker</li>
           </div>
           <p>
             One last thing, I'm available for freelance work, so feel free to
