@@ -1,9 +1,11 @@
 function skills() {
   return (
     <div className="flex flex-col gap-8">
-      <div className="flex justify-center flex-col items-center gap-6">
-        <button className="w-20 h-7 rounded-lg bg-gray-600">Skills</button>
-        <p>The skills, tools and technologies I am really good at:</p>
+      <div className="flex justify-center flex-col items-center gap-3">
+        <button className="w-28 h-7 rounded-lg bg-gray-600">Skills</button>
+        <p className="text-gray-600 text-xl">
+          The skills, tools and technologies I am really good at:
+        </p>
       </div>
       <div className="flex flex-col justify-center gap-7 items-center">
         <div className="flex gap-24 flex-wrap">

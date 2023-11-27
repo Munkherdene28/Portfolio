@@ -3,7 +3,7 @@ function Section2() {
   return (
     <div className="flex flex-col gap-8 bg-gray-200">
       <div className="flex justify-center p-5">
-        <button className="flex bg-gray-600 justify-center items-center w-50 h-7 rounded-lg">
+        <button className="flex bg-gray-600 justify-center items-center w-28 h-7 rounded-lg">
           About me
         </button>
       </div>
