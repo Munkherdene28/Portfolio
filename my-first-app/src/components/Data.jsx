@@ -11,12 +11,12 @@ const JobCard = () => {
     date: "Nov 2021 - Present",
   };
   return (
-    <div className="flex gap-20 bg-white rounded-lg justify-center w-2/5 h-60 shadow-lg">
-      <div className="">
-        <img src={logo.src} alt="Logo" />
-      </div>
-      <div className="flex gap-20">
-        <div className="flex flex-col gap-3 font-Inter font-normal text-gray-600">
+    <div className="flex justify-center items-center mt-6">
+      <div className="flex flex-col sm:flex-row bg-white border-solid rounded-lg max-w-5xl p-5 shadow-xl gap-8">
+        <div className="">
+          <img src={logo.src} alt="" />
+        </div>
+        <div className="flex flex-col gap-2 font-Inter font-normal text-gray-600">
           <h1 className="font-Inter font-normal text-2xl text-black">
             {jobData.title}
           </h1>
@@ -24,7 +24,7 @@ const JobCard = () => {
             <li key={index}>{point}</li>
           ))}
         </div>
-        <div className="">
+        <div>
           <p>{jobData.date}</p>
         </div>
       </div>
@@ -33,7 +33,7 @@ const JobCard = () => {
 };
 const Render = () => {
   return (
-    <div className="flex gap-20 flex-col justify-center items-center">
+    <div className="flex justify-center items-center gap-10 flex-col">
       <JobCard />
       <JobCard />
       <JobCard />

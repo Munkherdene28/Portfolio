@@ -8,7 +8,7 @@ import Work from "@/components/Work";
 import Get from "@/components/Get";
 export default function Home() {
   return (
-    <section className="flex flex-col gap-24">
+    <section className="flex flex-col gap-10">
       <Header />
       <Main />
       <About />

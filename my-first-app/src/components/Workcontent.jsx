@@ -19,7 +19,6 @@ function Work() {
               cubilia
               <br /> curae.
             </p>
-
             <Button />
             <div>
               <svg

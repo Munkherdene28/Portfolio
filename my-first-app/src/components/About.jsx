@@ -1,15 +1,15 @@
 import Pic from "../assets/Pic.png";
 function Section2() {
   return (
-    <div className="flex flex-col gap-8 bg-gray-200">
-      <div className="flex justify-center p-5">
+    <div className="flex flex-col gap-8 bg-gray-200 p-4 md:p-8">
+      <div className="flex justify-center">
         <button className="flex bg-gray-600 justify-center items-center w-28 h-7 rounded-lg">
           About me
         </button>
       </div>
-      <div className="flex justify-center gap-20">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-20 justify-center">
         <div className="img">
-          <img src={Pic.src} />
+          <img src={Pic.src} alt="" />
         </div>
         <div className="flex flex-col gap-2 text-gray-600">
           <h1 className="font-Inter font-normal text-2xl text-black">
@@ -45,13 +45,15 @@ function Section2() {
             tech-<br></br>related bites and build in public, or you can follow
             me on GitHub.
           </p>
-          <div className="flex flex-wrap">
-            <li>B.E. in Computer Engineering</li>
-            <li>Full time freelancer</li>
-          </div>
-          <div className="flex flex-wrap">
-            <li>Avid learner</li>
-            <li>Aspiring indie hacker</li>
+          <div className="flex gap-4 text-gray-600">
+            <div>
+              <li>B.E. in Computer Engineering</li>
+              <li>Full-time freelancer</li>
+            </div>
+            <div>
+              <li>Avid learner</li>
+              <li>Aspiring indie hacker</li>
+            </div>
           </div>
           <p>
             One last thing, I'm available for freelance work, so feel free to

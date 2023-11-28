@@ -7,9 +7,9 @@ function skills() {
           The skills, tools and technologies I am really good at:
         </p>
       </div>
-      <div className="flex flex-col justify-center gap-7 items-center">
-        <div className="flex gap-24 flex-wrap">
-          <div className="details">
+      <div className="flex gap-24 justify-center flex-wrap">
+        <div className="flex gap-24">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="88"
               height="100"
@@ -35,7 +35,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="91"
               height="100"
@@ -81,7 +81,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="71"
               height="100"
@@ -137,7 +137,7 @@ function skills() {
             </svg>
             <s></s>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="67"
               height="100"
@@ -169,7 +169,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="66"
               height="100"
@@ -213,7 +213,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="87"
               height="100"
@@ -253,7 +253,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="79"
               height="100"
@@ -290,7 +290,7 @@ function skills() {
           </div>
         </div>
         <div className="flex gap-24">
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="85"
               height="100"
@@ -330,7 +330,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="89"
               height="100"
@@ -360,7 +360,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="53"
               height="100"
@@ -416,7 +416,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="90"
               height="100"
@@ -454,7 +454,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="64"
               height="100"
@@ -479,7 +479,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="71"
               height="100"
@@ -539,7 +539,7 @@ function skills() {
               </defs>
             </svg>
           </div>
-          <div className="details">
+          <div className="details sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
             <svg
               width="87"
               height="100"

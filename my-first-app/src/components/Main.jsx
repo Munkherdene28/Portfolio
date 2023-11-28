@@ -2,41 +2,42 @@ import sarah from "../assets/Sarah.png";
 import Icon from "./Icon";
 function Main() {
   return (
-    <div className="flex justify-center gap-6">
-      <div className="flex flex-col gap-10">
-        <div className="flex justify-center flex-col gap-2">
-          <h1 className="font-Inter text-5xl tracking-tighter">
+    <div className="flex flex-col-reverse justify-center items-center lg:flex-row gap-6 p-4 lg:p-8">
+      <div className="lg:w-1/2 flex flex-col gap-10">
+        <div className="flex flex-col gap-2">
+          <h1 className="font-Inter text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tighter">
             Hi, I’m Munkherdene 👋
           </h1>
           <p className="font-Inter text-gray-600">
             I'm a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing)<br></br> exceptional digital
+            creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
-            responsive. Even<br></br>
-            though I have been creating web applications for over 7 years, I
-            still love it as if it was something new.
+            responsive. Even though I have been creating web applications for
+            over 7 years, I still love it as if it was something new.
           </p>
         </div>
         <div className="icons">
-          <div className="flex items-center gap-2.5">
-            <Icon />
-            <p className="text-gray-600">Ahmedabad, India</p>
-          </div>
-          <div className="flex items-center gap-2.5">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect x="8" y="8" width="8" height="8" rx="4" fill="#10B981" />
-            </svg>
-            <p className="text-gray-600">Available for new projects</p>
+          <div className="flex flex-col gap-2.5">
+            <div className="flex items-center gap-2.5">
+              <Icon />
+              <p className="text-gray-600">Ahmedabad, India</p>
+            </div>
+            <div className="flex items-center gap-2.5">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="8" y="8" width="8" height="8" rx="4" fill="#10B981" />
+              </svg>
+              <p className="text-gray-600">Available for new projects</p>
+            </div>
           </div>
         </div>
         <div className="actions">
-          <div className="flex">
+          <div className="flex gap-2">
             <svg
               width="36"
               height="36"
@@ -121,7 +122,7 @@ function Main() {
         </div>
       </div>
       <div>
-        <img src={sarah.src} className="w-70 h-96" />
+        <img src={sarah.src} className="w-full lg:w-96 h-60 lg:h-96" />
       </div>
     </div>
   );
