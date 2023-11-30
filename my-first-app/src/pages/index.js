@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Work from "@/components/Work";
 import Get from "@/components/Get";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <section className="flex flex-col gap-10">
@@ -15,6 +16,7 @@ export default function Home() {
       <Experience />
       <Work />
       <Get />
+      <Footer />
     </section>
   );
 }

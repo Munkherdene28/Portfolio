@@ -8,7 +8,7 @@ function Main() {
           <h1 className="font-Inter text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tighter">
             Hi, I’m Munkherdene 👋
           </h1>
-          <p className="font-Inter text-gray-600">
+          <p className="font-Inter text-gray-600 dark:text-white">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
@@ -20,7 +20,7 @@ function Main() {
           <div className="flex flex-col gap-2.5">
             <div className="flex items-center gap-2.5">
               <Icon />
-              <p className="text-gray-600">Ahmedabad, India</p>
+              <p className="text-gray-600 dark:text-white">Ahmedabad, India</p>
             </div>
             <div className="flex items-center gap-2.5">
               <svg
@@ -32,7 +32,9 @@ function Main() {
               >
                 <rect x="8" y="8" width="8" height="8" rx="4" fill="#10B981" />
               </svg>
-              <p className="text-gray-600">Available for new projects</p>
+              <p className="text-gray-600 dark:text-white">
+                Available for new projects
+              </p>
             </div>
           </div>
         </div>

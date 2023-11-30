@@ -4,7 +4,7 @@ export default function Logo({ color }) {
       width="92"
       height="27"
       viewBox="0 0 92 27"
-      fill="#FFF"
+      fill="white"
       color={color}
       xmlns="http://www.w3.org/2000/svg"
     >

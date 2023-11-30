@@ -39,7 +39,7 @@ export default function Navbar() {
           <button onClick={themeToggle}>
             <Theme />
           </button>
-          <button className="w-full bg-black text-white px-4 py-1.5 rounded-lg font-medium dark:text-red-400">
+          <button className="w-full bg-black text-white px-4 py-1.5 rounded-lg font-medium">
             Download CV
           </button>
         </div>

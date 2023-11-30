@@ -5,12 +5,8 @@ function Work() {
   return (
     <div className="flex flex-col">
       {contentArray.map(() => (
-        <div className="flex flex-col md:flex-row items-center gap-10">
-          <img
-            className="w-full md:w-1/3"
-            src={Picture.src}
-            alt="Project Image"
-          />
+        <div className="flex flex-col md:flex-row items-center gap-10 dark:bg-gray-700">
+          <img className="w-full md:w-1/3" src={Picture.src} alt="" />
           <div className="flex flex-col gap-3 w-full md:w-2/3 text-gray-600">
             <h1 className="text-2xl text-black font-Inter font-normal">
               Fiskil
