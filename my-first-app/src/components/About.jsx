@@ -1,7 +1,7 @@
 import Pic from "../assets/Pic.png";
 function Section2() {
   return (
-    <div className="flex flex-col gap-8 bg-gray-200 p-4 md:p-8">
+    <div className="flex flex-col gap-8 bg-gray-50 p-4 md:p-8 dark:bg-gray-900">
       <div className="flex justify-center">
         <button className="flex bg-gray-600 justify-center items-center w-28 h-7 rounded-lg">
           About me

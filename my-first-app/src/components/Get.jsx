@@ -1,17 +1,18 @@
 function Get() {
   return (
-    <div className="flex gap-6 flex-col">
-      <div className="flex justify-center flex-col items-center gap-3">
-        <button className="flex bg-gray-600 justify-center items-center w-28 h-7 rounded-lg">
+    <div className="flex flex-col items-center md:flex-col gap-6">
+      <div className="flex flex-col items-center md:gap-3 ">
+        <button className="flex bg-gray-600 justify-center items-center w-full md:w-28 h-7 rounded-lg">
           Get in touch
         </button>
-        <p className="text-gray-600 text-xl">
-          What’s next? Feel free to reach out to me if you're looking for
-          <br></br>a developer, have a query, or simply want to connect.
+        <p className="text-gray-600 text-xl text-center md:text-left">
+          What’s next? Feel free to reach out to me if you're looking for a
+          developer,
+          <br /> have a query, or simply want to connect.
         </p>
       </div>
-      <div>
-        <div className="flex justify-center items-center">
+      <div className="flex flex-col items-center">
+        <div className="flex items-center gap-2">
           <svg
             width="32"
             height="32"
@@ -58,7 +59,7 @@ function Get() {
             />
           </svg>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex items-center gap-2">
           <svg
             width="30"
             height="30"
@@ -99,8 +100,10 @@ function Get() {
           </svg>
         </div>
       </div>
-      <div className="flex justify-center items-center flex-col">
-        <p className="text-gray-600">You may also find me on these platforms!</p>
+      <div className="flex flex-col items-center">
+        <p className="text-gray-600">
+          You may also find me on these platforms!
+        </p>
         <div className="flex">
           <svg
             width="36"

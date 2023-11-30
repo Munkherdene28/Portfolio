@@ -3,12 +3,16 @@ import Button from "@/components/Button";
 function Work() {
   const contentArray = Array.from({ length: 3 });
   return (
-    <div>
+    <div className="flex flex-col">
       {contentArray.map(() => (
-        <div className="flex justify-center gap-10">
-          <img src={Picture.src} />
-          <div className="flex flex-col gap-3 font-Inter font-normal text-gray-600 flex-col gap-6">
-            <h1 className="font-Inter font-normal text-2xl text-black">
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <img
+            className="w-full md:w-1/3"
+            src={Picture.src}
+            alt="Project Image"
+          />
+          <div className="flex flex-col gap-3 w-full md:w-2/3 text-gray-600">
+            <h1 className="text-2xl text-black font-Inter font-normal">
               Fiskil
             </h1>
             <p>
@@ -20,7 +24,7 @@ function Work() {
               <br /> curae.
             </p>
             <Button />
-            <div>
+            <div className="flex items-center">
               <svg
                 width="36"
                 height="36"

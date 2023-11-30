@@ -12,12 +12,12 @@ const JobCard = () => {
   };
   return (
     <div className="flex justify-center items-center mt-6">
-      <div className="flex flex-col sm:flex-row bg-white border-solid rounded-lg max-w-5xl p-5 shadow-xl gap-8">
+      <div className="flex flex-col sm:flex-row bg-white border-solid rounded-lg max-w-5xl p-5 shadow-xl gap-8 dark:bg-gray-800">
         <div className="">
           <img src={logo.src} alt="" />
         </div>
-        <div className="flex flex-col gap-2 font-Inter font-normal text-gray-600">
-          <h1 className="font-Inter font-normal text-2xl text-black">
+        <div className="flex flex-col gap-2 font-Inter font-normal text-gray-600 dark:text-white">
+          <h1 className="font-Inter font-normal text-2xl text-black dark:text-white">
             {jobData.title}
           </h1>
           {jobData.points.map((point, index) => (
