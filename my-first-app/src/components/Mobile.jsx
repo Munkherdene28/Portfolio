@@ -32,7 +32,7 @@ export default function Mobile(props) {
               </button>
             </div>
 
-            <button className="mt-4 w-full bg-black text-white px-4 py-1.5 rounded-lg font-medium">
+            <button className="mt-4 w-full bg-black text-white px-4 py-1.5 rounded-lg font-medium dark:bg-white dark:text-black">
               Download CV
             </button>
           </div>

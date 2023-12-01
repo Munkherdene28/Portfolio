@@ -8,7 +8,7 @@ import Get from "@/components/Get";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 m-0 p-0 box-border">
       <Navbar />
       <Main />
       <About />

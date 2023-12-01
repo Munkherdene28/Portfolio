@@ -3,15 +3,17 @@ import Button from "@/components/Button";
 function Work() {
   const contentArray = Array.from({ length: 3 });
   return (
-    <div className="flex flex-col">
+    <div className="flex  flex-col gap-12 ">
       {contentArray.map(() => (
-        <div className="flex flex-col md:flex-row items-center gap-10 dark:bg-gray-700">
-          <img className="w-full md:w-1/3" src={Picture.src} alt="" />
-          <div className="flex flex-col gap-3 w-full md:w-2/3 text-gray-600">
-            <h1 className="text-2xl text-black font-Inter font-normal">
+        <div className="flex shadow-xl justify-center items-center h-[30rem] w-[72rem] dark:bg-gray-700 rounded-lg">
+          <div className="h-[30rem] w-[50rem] flex justify-center items-center bg-gray-200 rounded-lg dark:bg-gray-600">
+            <img src={Picture.src} alt="" />
+          </div>
+          <div className="flex flex-col gap-6 text-gray-600 h-[30rem] p-10 dark:bg-gray-800">
+            <h1 className="text-2xl text-black font-Inter font-normal dark:text-white">
               Fiskil
             </h1>
-            <p>
+            <p className="dark:text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               <br />
               Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante

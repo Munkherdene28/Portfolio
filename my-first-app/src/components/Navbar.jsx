@@ -15,10 +15,10 @@ export default function Navbar() {
   };
 
   const themeToggle = () => {
-    if (theme == "dark") {
+    if (theme === "dark") {
       setTheme("light");
     }
-    if (theme == "light") {
+    if (theme === "light" || theme === "dark") {
       setTheme("dark");
     }
   };
