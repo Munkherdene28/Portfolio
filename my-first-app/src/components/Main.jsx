@@ -6,7 +6,7 @@ function Main() {
       <div className="lg:w-1/2 flex flex-col gap-10">
         <div className="flex flex-col gap-2">
           <h1 className="font-Inter text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tighter">
-            Hi, I’m Sagar 👋
+            Hi, I’m  👋
           </h1>
           <p className="font-Inter text-gray-600 dark:text-white">
             I'm a full stack developer (React.js & Node.js) with a focus on
