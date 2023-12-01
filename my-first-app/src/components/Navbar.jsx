@@ -14,11 +14,11 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const themeToggle = () => {
+  const Toggle = () => {
     if (theme === "dark") {
       setTheme("light");
     }
-    if (theme === "light" || theme === "dark") {
+    if (theme === "light") {
       setTheme("dark");
     }
   };
@@ -36,7 +36,7 @@ export default function Navbar() {
               <li className="list-none">{item}</li>
             ))}
           </ul>
-          <button onClick={themeToggle}>
+          <button onClick={Toggle}>
             <Theme />
           </button>
           <button className="w-full bg-black text-white px-4 py-1.5 rounded-lg font-medium">
