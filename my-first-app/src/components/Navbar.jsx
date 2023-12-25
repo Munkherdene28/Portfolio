@@ -17,8 +17,7 @@ export default function Navbar() {
   const Toggle = () => {
     if (theme === "dark") {
       setTheme("light");
-    }
-    if (theme === "light") {
+    } else if (theme === "light") {
       setTheme("dark");
     }
   };
@@ -33,7 +32,9 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <ul className="py-4 flex gap-4">
             {["About", "Work", "Testimonials", "Experience"].map((item) => (
-              <li className="list-none">{item}</li>
+              <li key={item} className="list-none">
+                {item}
+              </li>
             ))}
           </ul>
           <button onClick={Toggle}>

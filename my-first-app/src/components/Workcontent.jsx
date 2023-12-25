@@ -1,15 +1,20 @@
 import Picture from "../assets/Picture.png";
 import Button from "@/components/Button";
+
 function Work() {
   const contentArray = Array.from({ length: 3 });
+
   return (
-    <div className="flex  flex-col gap-12 ">
-      {contentArray.map(() => (
-        <div className="flex shadow-xl justify-center items-center h-[30rem] w-[72rem] dark:bg-gray-700 rounded-lg">
-          <div className="h-[30rem] w-[50rem] flex justify-center items-center bg-gray-200 rounded-lg dark:bg-gray-600">
-            <img src={Picture.src} alt="" />
+    <div className="flex flex-col gap-12">
+      {contentArray.map((index) => (
+        <div
+          key={index}
+          className="flex flex-col md:flex-row shadow-xl justify-center items-center md:h-[30rem] w-full md:w-[72rem] dark:bg-gray-700 rounded-lg"
+        >
+          <div className="h-[30rem] w-full md:w-[50rem] flex justify-center items-center bg-gray-200 rounded-lg dark:bg-gray-600">
+            <img src={Picture.src} alt="" className="max-w-full max-h-full" />
           </div>
-          <div className="flex flex-col gap-6 text-gray-600 h-[30rem] p-10 dark:bg-gray-800">
+          <div className="flex flex-col gap-6 text-gray-600 h-full p-10 dark:bg-gray-800">
             <h1 className="text-2xl text-black font-Inter font-normal dark:text-white">
               Fiskil
             </h1>
@@ -59,4 +64,5 @@ function Work() {
     </div>
   );
 }
+
 export default Work;

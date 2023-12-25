@@ -1,12 +1,24 @@
+import { useTheme } from "next-themes";
 import Layout from "./Layout";
 import CloseIcon from "@/icons/CloseIcon";
 import Logo from "@/icons/Logo";
 import Theme from "@/icons/Theme";
 
 export default function Mobile(props) {
+  const { theme, setTheme } = useTheme();
+
   const closeHandler = () => {
     props.setIsOpen(false);
   };
+
+  const toggleTheme = () => {
+    if (theme === "dark") {
+      setTheme("light");
+    } else if (theme === "light") {
+      setTheme("dark");
+    }
+  };
+
   return (
     <Layout>
       <div className="w-screen h-screen top-0 left-0 absolute bg-[#00000070] flex justify-end">
@@ -20,14 +32,16 @@ export default function Mobile(props) {
           <hr className="mt-4" />
           <ul className="py-4 flex flex-col gap-4">
             {["About", "Work", "Testimonials", "Experience"].map((item) => (
-              <li className="list-none">{item}</li>
+              <li key={item} className="list-none">
+                {item}
+              </li>
             ))}
           </ul>
           <hr className="mt-4" />
           <div className="py-4">
             <div className="flex justify-between">
               <p>Switch theme</p>
-              <button>
+              <button onClick={toggleTheme}>
                 <Theme />
               </button>
             </div>
